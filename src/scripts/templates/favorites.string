@@ -9,21 +9,109 @@
   </header>
   <nav>
     <ul>
-      <li><span class="redborder">共享<i>2</i></span></li>
-      <li><span>隐藏<i>0</i></span></li>
+      <li action-type="tap.favorites.slide"><span class="active" >共享<i>2</i></span></li>
+      <li action-type="tap.favorites.slide"><span>隐藏<i>0</i></span></li>
     </ul>
   </nav>
-  <section>
-    <div>
-      <dl>
-        <dt>H</dt>
-        <dd>
-          <span><img src="/wocang/images/img/bg.jpg" alt="" /></span>
-          <span>dsfdsfdfdgfddfgdf</span>
-          <em class="yo-ico">&#xe61a;</em>
-        </dd>
-      </dl>
+
+
+    <div class="swiper-container" id="favorites-swiper">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <section spa-widget="scroll">
+            <div>
+              <dl>
+                <dt>H</dt>
+                <dd>
+                  <span><img src="/wocang/images/img/bg.jpg" alt="" /></span>
+                  <span>dsfdsfdfdgfddfgdf</span>
+                  <em class="yo-ico">&#xe61a;</em>
+                </dd>
+              </dl>
+              
+            </div>
+          </section>
+          <div class="rightnav">
+            <p>Top</p>
+            <p>A</p>
+            <p>B</p>
+            <p>C</p>
+            <p>D</p>
+            <p>E</p>
+            <p>F</p>
+            <p>G</p>
+            <p>H</p>
+            <p>I</p>
+            <p>J</p>
+            <p>K</p>
+            <p>L</p>
+            <p>M</p>
+            <p>N</p>
+            <p>O</p>
+            <p>P</p>
+            <p>Q</p>
+            <p>R</p>
+            <p>S</p>
+            <p>T</p>
+            <p>U</p>
+            <p>V</p>
+            <p>W</p>
+            <p>S</p>
+            <p>V</p>
+            <p>Z</p>
+            <p>#</p>
+          </div>
+
+          </div>
+          <div class="swiper-slide">
+            <section>
+            <div>
+              <dl>
+                <dt>H</dt>
+                <dd>
+                  <span><img src="/wocang/images/img/bg.jpg" alt="" /></span>
+                  <span>dsfdsfdfdgfddfgdf</span>
+                  <em class="yo-ico">&#xe61a;</em>
+                </dd>
+              </dl>
+            </div>
+
+          </section>
+          <div class="rightnav">
+            <p>Top</p>
+            <p>A</p>
+            <p>B</p>
+            <p>C</p>
+            <p>D</p>
+            <p>E</p>
+            <p>F</p>
+            <p>G</p>
+            <p>H</p>
+            <p>I</p>
+            <p>J</p>
+            <p>K</p>
+            <p>L</p>
+            <p>M</p>
+            <p>N</p>
+            <p>O</p>
+            <p>P</p>
+            <p>Q</p>
+            <p>R</p>
+            <p>S</p>
+            <p>T</p>
+            <p>U</p>
+            <p>V</p>
+            <p>W</p>
+            <p>S</p>
+            <p>V</p>
+            <p>Z</p>
+            <p>#</p>
+          </div>
+
+          </div>
+
+      </div>
+
     </div>
 
-  </section>
 </div>

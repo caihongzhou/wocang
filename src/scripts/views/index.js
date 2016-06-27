@@ -16,7 +16,7 @@ SPA.defineView('index',{
         //console.log(e);
         $(e.el).addClass("active").siblings().removeClass("active");
       //  console.log(data.tag);
-        //console.log(this);
+      
         this.modules.content.launch(data.tag);
 
     }

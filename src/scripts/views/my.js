@@ -28,11 +28,11 @@ SPA.defineView('my', {
 	},
 	bindActions:{
 		"goto.tab":function(e){
-
+			  
 			SPA.open('login')
 		},
 		"favorites.tab":function(e){
-		
+
 			SPA.open('favorites')
 		},
 		"send.tab":function(e){
@@ -79,10 +79,10 @@ SPA.defineView('my', {
 
 			  that.vm = that.getVM()
 			$.ajax({
-				// url:'/wocang/moke/livelist.json',
+				 url:'/wocang/moke/livelist.json',
 			//	url:"https://localhost:8443/1.0/usercards/all?page=0",
 			//url:"https://api.mystarcloud.com/1.0/usercards/all?page=1&time="+time,
-				url: '/api/getLivelist.php\?rtype=origin',
+			//	url: '/api/getLivelist.php\?rtype=origin',
 				type: 'GET',
 				date: {
 					// page: '0',
@@ -136,7 +136,7 @@ SPA.defineView('my', {
 					head.attr('src', '/wocang/images/img/ajax-loader.gif');
 					// ajax下拉刷新数据
 						$.ajax({
-							url: '/api/getLivelist.php',
+						 url:'/wocang/moke/refash.json',
 							data:{
 									rtype: 'refash'
 							},
@@ -162,7 +162,7 @@ SPA.defineView('my', {
 					// ajax上拉加载数据
 
 					$.ajax({
-						url: '/api/getLivelist.php',
+					 url:'/wocang/moke/livelist-more.json',
 						data: {
 							rtype: 'more'
 						},

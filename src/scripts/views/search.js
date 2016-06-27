@@ -82,7 +82,7 @@ SPA.defineView('search',{
 					head.attr('src', '/wocang/images/img/ajax-loader.gif');
 					// ajax下拉刷新数据
 						$.ajax({
-							url: '/api/getLivelist.php',
+						  url:'/wocang/moke/refash.json',
 							data:{
 									rtype: 'refash'
 							},
@@ -108,7 +108,7 @@ SPA.defineView('search',{
 					// ajax上拉加载数据
 
 					$.ajax({
-						url: '/api/getLivelist.php',
+					  url:'/wocang/moke/livelist-more.json',
 						data: {
 							rtype: 'more'
 						},
