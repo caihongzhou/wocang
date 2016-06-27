@@ -1,0 +1,79 @@
+<div class="m-search">
+  <header>
+    <ul>
+    <li >类别</li>
+    <li >自定义主题</li>
+    <li class="yo-ico">&#xe658;</li>
+    </ul>
+  </header>
+  <div class="hotcar">
+    <h2>热门卡片推荐</h2>
+    <div class="swiper-container" id="srarch-swiper"    >
+      <div class="swiper-wrapper">
+          <div class="swiper-slide" ms-repeat-value="livelist"ms-class-hide="!value[0]" ><img ms-src="value[0].userImgUrl" alt="" /></div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+  <section id="home-scroll" spa-widget="scroll" data-scroll-id="searchScroll">
+    <div>
+      <div class="head">
+          <img src="/wocang/images/img/arrow.png" width="40" height="40"/>
+          <span>下拉刷新...</span>
+      </div>
+        <div class="cont"  ms-repeat-value="livelist">
+
+          <div>
+            <ul>
+              <li ><img ms-src="value[0].userImgUrl"></li>
+              <li ms-text="value[0].title"></li>
+              <li>
+                <span>连接</span>
+                <span><i class="yo-ico">&#xe655;</i>0</span>
+                <span><i class="yo-ico">&#xe83c;</i>1</span>
+                <span><i class="yo-ico">&#xe633;</i>0</span>
+              </li>
+              <li>
+              <span><img src="/wocang/images/img/bg.jpg" alt=""></span>
+                <span>
+                  <em>收藏在</em>
+                  <i>时尚薇藏</i>
+                </span>
+
+              </li>
+            </ul>
+          </div>
+
+          <div ms-class-hide="!value[1]">
+            <ul>
+              <li><img ms-src="value[1].userImgUrl"></li>
+              <li ms-text="value[1].title"></li>
+              <li>
+                <span>连接</span>
+                <span><i class="yo-ico">&#xe655;</i>0</span>
+                <span><i class="yo-ico">&#xe83c;</i>1</span>
+                <span><i class="yo-ico">&#xe633;</i>0</span>
+              </li>
+              <li>
+              <span><img src="/wocang/images/img/bg.jpg" alt=""></span>
+                <span>
+                  <em>收藏在</em>
+                  <i>时尚薇藏</i>
+                </span>
+
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+        <div class="foot">
+            <img src="/wocang/images/img/arrow.png" width="40" height="40"/>
+            <span>上拉加载更多...</span>
+        </div>
+    </div>
+  </section>
+</div>

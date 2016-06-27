@@ -1,0 +1,87 @@
+@import "../../lib/widget/yo-dialog";
+
+@include yo-dialog(
+  $name: a,
+  $height: 60%,
+  $width: 100%,
+  $bordercolor: rgba(250,250,250 ,0.7),
+  $bd-padding: 0,
+  $title-font-size: .12rem
+){
+  .bd {
+
+      h2 {
+        font-style:oblique;
+        font-size: .16rem;
+        font-family: "宋体";
+        font-weight: normal;
+        color:#a2a2a2;
+        text-align: center;
+        margin-bottom:.15rem;
+      }
+      ul{
+        width:100%;
+        @include flexbox();
+        margin-bottom:.1rem;
+        li{
+
+          @include flex(1);
+          i{
+            font-size: .3rem;
+            display: block;
+            width:.6rem;
+            height:.6rem;
+            border-radius: 50%;
+            text-align: center;
+            background:#f66;
+            line-height: .6rem;
+            margin:0 auto;
+            color:#fff;
+            &.camera {
+              background:#e6517b;
+            }
+            &.album {
+              background:#f36d62;
+            }
+            &.itext {
+              background:#fda402;
+            }
+            &.link {
+              background:#36b77e;
+            }
+            &.micro-blog {
+              background:#57b3d8;
+            }
+            &.ercode {
+              background:#66cdc9;
+            }
+            &.drafts {
+              background:#f3b467;
+            }
+
+
+          }
+          p{
+            color:#222222;
+            font-size: .14rem;
+            line-height: .26rem;
+          }
+
+        }
+      }
+
+  }
+
+};
+.send{
+  width:100%;
+
+
+    .yo-dialog-a{
+
+      background:rgba(250,250,250,0.5);
+
+      max-width:100%;
+
+    }
+}

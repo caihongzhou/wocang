@@ -1,0 +1,210 @@
+.m-index {
+    .l-container {
+      position: relative;
+        .m-search {
+            width: 100%;
+            height: 100%;
+
+            @include flexbox();
+            @include flex-direction(column);
+            overflow: hidden;
+
+            header {
+                width: 100%;
+                height: 0.44rem;
+                background: #f4f4f4;
+                ul {
+                    width: 100%;
+                    height: 100%;
+                    @include flexbox();
+                    @include align-items(center);
+                    //line-height: .44rem;
+                    text-align: center;
+                    font-size: 0.18rem;
+                    li {
+                        width: 0.44rem;
+                        &:nth-child(1) {
+                            color: #cd0400;
+                            font-size: 0.16rem;
+                        }
+                        &:nth-child(2) {
+                            @include flex(1);
+                        }
+                        &:nth-child(3) {
+                            width: 0.5rem;
+                            color: #cd0400;
+                        }
+                    }
+                }
+            }
+            .hotcar {
+              width:100%;
+              position:relative;
+              height:.8rem;
+              h2 {
+                width:100%;
+                text-align: center;
+                position:absolute;
+
+                line-height:.26rem;
+                top:0;
+                left:0;
+                text-align: center;
+                color:#fff;
+                z-index: 999;
+                background: rgba(200, 0, 0, 0.3);
+              }
+              #srarch-swiper {
+                width:100%;
+                height:100%;
+                img{
+                  width:100%;
+
+                }
+                .swiper-slide {
+                  &.hide {
+                    visibility: hidden;
+                  }
+                }
+
+              }
+            }
+
+            section {
+                width: 100%;
+                overflow: hidden;
+                .cont{
+                    width: 100%;
+                    @include flexbox();
+                    margin-top: 5px;
+                    box-sizing: border-box;
+                    padding:.05rem .1rem;
+                    div{
+                        @include flex(1);
+                        &:nth-child(1){
+                          margin-right:10px;
+                        }
+                        &.hide{
+                          visibility: hidden;
+                        }
+
+                          ul {
+                            background: #fff;
+
+                              color: #080808;
+                              border-radius: .08rem;
+                              overflow: hidden;
+                              li {
+                                &:not(:nth-child(1)){
+                                  padding: 0.1rem;
+                                }
+
+                                  img {
+                                      width: 100%;
+                                  }
+                                  &:nth-child(3) {
+                                      font-size: 0.12rem;
+                                      color: #bababb;
+                                      @include flexbox();
+                                      span {
+
+                                          &:nth-child(1) {
+                                              width: 0.30rem;
+                                              height:.16rem;
+                                              text-align: center;
+                                              line-height: .16rem;
+                                              border-radius: 10%;
+                                              background: $color;
+                                              color: #fff;
+                                          }
+                                          &:not(:nth-child(1)) {
+                                              @include flex(1);
+                                              text-align: center;
+                                              i{
+                                                font-size: .14rem;
+                                              }
+                                          }
+                                          &:nth-child(2) {
+                                              @include flex(2);
+                                              text-align: right;
+                                          }
+                                      }
+                                  }
+                                  &:nth-child(4) {
+                                      box-sizing: border-box;
+                                      color: #bababb;
+                                      font-size: 0.12rem;
+                                      @include border(1px 0 0 0 ,$color,solid);
+                                      @include flexbox();
+                                      span {
+
+                                          &:nth-child(1) {
+                                              display: block;
+                                              width: 0.4rem;
+                                              height: 0.35rem;
+                                              border-radius: 10%;
+                                              overflow: hidden;
+                                              padding-right:.1rem;
+                                              img {
+                                                  width: 100%;
+                                                  height: 100%;
+                                              }
+                                          }
+                                          i {
+                                              display: block;
+
+                                          }
+                                          em {
+                                              display: block;
+
+                                          }
+                                          &:not(:nth-child(1)) {
+                                              @include flex(1);
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+
+                    }
+                }
+                .head {
+                    text-align: center;
+                    height: .3rem;
+                    line-height: .3rem;
+                }
+                .head img {
+                    display: inline-block;
+                    transform: rotate(180deg);
+                    -webkit-transform: rotate(180deg);
+                    transition: transform 150ms;
+                    -webkit-transition: transform 150ms;
+                    height: .15rem;
+                    width: .15rem;
+                }
+                .up {
+                    transform: rotate(360deg) !important;
+                    -webkit-transform: rotate(360deg) !important;
+                }
+                .foot {
+                    text-align: center;
+                    height: .3rem;
+                    line-height: .3rem;
+                }
+                .foot img {
+                    display: inline-block;
+                    /*transform: rotate(0deg);*/
+                    /*-webkit-transform: rotate(0deg);*/
+                    transition: transform 150ms;
+                    -webkit-transition: transform 150ms;
+                    height: .15rem;
+                    width: .15rem;
+                }
+                .down {
+                    transform: rotate(180deg) !important;
+                    -webkit-transform: rotate(180deg) !important;
+                }
+            }
+        }
+    }
+}

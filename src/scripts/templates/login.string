@@ -1,0 +1,27 @@
+<div id="login"  >
+  <header>
+    <ul>
+    <li class="yo-ico" action-type="banck-tab">&#xe604;</li>
+    <li >用户信息</li>
+    <li></li>
+    </ul>
+  </header>
+  <section>
+    <ul>
+      <li><span >头像</span><span class="border-none"><img src="/wocang/images/img/bg.jpg" alt=""></span><em class="yo-ico">&#xe61a;</em></li>
+      <li><span >背景</span><span ><img src="/wocang/images/img/bg.jpg" alt=""></span><em class="yo-ico">&#xe61a;</em></li>
+    </ul>
+    <ul>
+      <li><span >昵称</span><span>桀寳星</span><em class="yo-ico">&#xe61a;</em></li>
+      <li><span >简介</span><span>我是桀寳星桀寳星搞笑的桀寳星</span><em class="yo-ico">&#xe61a;</em></li>
+      <li><span >性别</span><span >女</span><em class="yo-ico">&#xe61a;</em></li>
+  </ul>
+
+  <ul>
+    <li><span >二维码</span><span>扫二维码加好友</span><em class="yo-ico">&#xe61a;</em></li>
+</ul>
+<ul>
+  <li><span>设置<span></li>
+</ul>
+  </section>
+</div>

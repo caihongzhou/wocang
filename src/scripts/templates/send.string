@@ -1,0 +1,43 @@
+<div class="send">
+  <div class="yo-dialog yo-dialog-a  ">
+    <div class="bd">
+        <h2>选一种收藏方式   ：</h2>
+        <ul>
+          <li>
+            <i class="yo-ico camera">&#xe70a;</i>
+            <p>相机</p>
+          </li>
+          <li>
+            <i  class="yo-ico album">&#xe640;</i>
+            <p>相册</p>
+          </li>
+          <li>
+            <i  class="yo-ico itext">&#xe600;</i>
+            <p>图文</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <i class="yo-ico link">&#xe6bf;</i>
+            <p>网址</p>
+          </li>
+          <li>
+            <i  class="yo-ico micro-blog ">&#xe60e;</i>
+            <p>微博</p>
+          </li>
+          <li>
+            <i  class="yo-ico ercode">&#xe620;</i>
+            <p>二维码</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <i class="yo-ico drafts">&#xe624;</i>
+            <p>草稿箱</p>
+          </li>
+
+        </ul>
+    </div>
+
+</div>
+</div>

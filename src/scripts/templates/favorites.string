@@ -1,0 +1,29 @@
+<div id="favorites">
+
+  <header>
+    <ul>
+    <li class="yo-ico" action-type="banck-tab">&#xe604;</li>
+    <li >收藏夹</li>
+    <li  action-type="send.tab" ><i>新建</i></li>
+      </ul>
+  </header>
+  <nav>
+    <ul>
+      <li><span class="redborder">共享<i>2</i></span></li>
+      <li><span>隐藏<i>0</i></span></li>
+    </ul>
+  </nav>
+  <section>
+    <div>
+      <dl>
+        <dt>H</dt>
+        <dd>
+          <span><img src="/wocang/images/img/bg.jpg" alt="" /></span>
+          <span>dsfdsfdfdgfddfgdf</span>
+          <em class="yo-ico">&#xe61a;</em>
+        </dd>
+      </dl>
+    </div>
+
+  </section>
+</div>

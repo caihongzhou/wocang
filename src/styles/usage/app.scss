@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@import "../lib/core/reset";
+@import "./core/common";
+@import "./core/swiper-3.3.1.min.css";
+
+
+@import"./module/index.scss";
+@import"./module/login.scss";
+@import"./module/favorites.scss";
+
+@import"./module/my.scss";
+@import"./module/friend.scss";
+@import"./module/search.scss";
+@import"./module/guide.scss";
+@import"./module/send.scss";
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #eceef0 !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}

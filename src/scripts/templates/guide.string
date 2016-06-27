@@ -1,0 +1,19 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/wocang/images/img/1.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/wocang/images/img/2.png">
+    </div>
+    <div class="swiper-slide">
+      <img src="/wocang/images/img/3.png">
+    </div>
+    <div class="swiper-slide" >
+      <img src="/wocang/images/img/4.png">
+    </div>
+    <div class="swiper-slide" action-type="goto.index">
+      <img src="/wocang/images/img/5.png">
+    </div>
+  </div>
+</div>

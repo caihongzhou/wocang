@@ -1,0 +1,115 @@
+#favorites{
+  width:100%;
+  height:100%;
+
+  header {
+      width: 100%;
+      height: 0.44rem;
+      background: #fff;
+      ul {
+          width: 100%;
+          height: 100%;
+          @include flexbox();
+          @include align-items(center);
+          //line-height: .44rem;
+          text-align: center;
+          font-size: 0.16rem;
+          background: #fff;
+          li {
+              width: 0.44rem;
+
+              &:nth-child(2) {
+                  @include flex(1);
+              }
+              &:nth-child(1) {
+                color: #cd0400;
+                font-size: .22rem;
+              }
+              &:nth-child(3) {
+                  width: 0.5rem;
+                  i {
+                      display: block;
+                      width: 80%;
+                      height:.2rem;
+                      line-height: 0.22rem;
+                      color: rgba(250,250,250,0.8);
+                      background: #cd0400;
+                      border-radius: 0.05rem;
+                      font-size: 0.14rem;
+                  }
+              }
+          }
+      }
+  }
+  nav{
+    ul{
+      width:100%;
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(center);
+      background: #fff;
+
+    }
+    li{
+      &:nth-child(1){
+
+        @include border(0 1px 0 0,#ccc);
+      }
+      @include flex(1);
+      text-align: center;
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(center)
+      span{
+        line-height: .3rem;
+        padding:0 .15rem;
+        &.redborder{
+
+            @include border(0 0 1px 0,#f00)
+        }
+      }
+      i{
+          margin-left:.05rem;
+        }
+
+    }
+  }
+
+  section{
+    div{
+      dl{
+        width:100%;
+        dt{
+          padding:.02rem .1rem;
+          @include box-sizing(border-box);
+          color:#ccc;
+        }
+        dd{
+          width:100%;
+          @include flexbox();
+          @include align-items(center);
+          @include justify-content(center);
+          padding:0 .07rem;
+          @include box-sizing(border-box);
+          background:#fff;
+          span{
+            width:.44rem;
+            height:.44rem;
+            line-height: .44rem;
+
+            img{
+              width:100%;
+            }
+            &:nth-child(2){
+              @include flex(1);
+              padding:0 .05rem;
+              @include box-sizing(border-box);
+            }
+
+
+          }
+        }
+      }
+    }
+  }
+}

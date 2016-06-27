@@ -1,0 +1,13 @@
+<div class="m-index">
+  <div class="l-container">
+
+  </div>
+  <footer>
+    <ul>
+      <li class="yo-ico active" action-type="switch.tab" data-tag="my"><i>&#xe614;</i><span>我</span></li>
+      <li class="yo-ico" action-type="switch.tab" data-tag="search"><i>&#xe621;</i><span>发现</span></li>
+      <li class="yo-ico " action-type="switch.tab" data-tag="friend"><i>&#xe602;</i><span>社交</span></li>
+
+    </ul>
+  </footer>
+</div>

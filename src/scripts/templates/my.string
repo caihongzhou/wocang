@@ -1,0 +1,91 @@
+<div class="m-home">
+  <header>
+    <ul>
+    <li class="yo-ico display-show " >&#xe61d;</li>
+    <li >我的</li>
+    <li  action-type="send.tab" ><i>收藏</i></li>
+    <li class="lookup">
+      <p>关键字查找</p>
+      <p>地点查找</p>
+      <p>标签查找</p>
+    </li>
+    </ul>
+  </header>
+
+  <section id="home-scroll" spa-widget="scroll"  data-scroll-id="homeHotScroll">
+    <div>
+      <div class="head">
+          <img src="/wocang/images/img/arrow.png" width="40" height="40"/>
+          <span>下拉刷新...</span>
+      </div>
+      <nav>
+          <ul>
+            <li><span action-type="goto.tab"><img src="/wocang/images/img/tou.png" alt=""></span></li>
+            <li>桀寳星</li>
+            <li>
+              <span>订阅<i>0</i></span>
+              <span>关注<i>1</i></span>
+              <span>粉丝<i>0</i></span>
+            </li>
+            <li>我的云收藏夹</li>
+          </ul>
+      </nav>
+        <div class="h-list" action-type="favorites.tab">
+          <p>收藏夹列表</p>
+            <p><span>共享卡片<i>0</i></span>&nbsp;&nbsp;&nbsp;<span>隐藏卡片<i>0</i></span></p>
+        </div>
+        <div class="cont" ms-repeat-value="livelist" >
+
+          <div>
+            <ul>
+              <li ><img ms-src="value[0].userImgUrl"></li>
+              <li ms-text="value[0].title"></li>
+              <li>
+                <span>连接</span>
+                <span><i class="yo-ico">&#xe655;</i>0</span>
+                <span><i class="yo-ico">&#xe83c;</i>1</span>
+                <span><i class="yo-ico">&#xe633;</i>0</span>
+              </li>
+              <li>
+              <span><img ms-src="value[1].userImgUrl"alt=""></span>
+                <span>
+                  <em>收藏在</em>
+                  <i>时尚薇藏</i>
+                </span>
+
+              </li>
+            </ul>
+          </div>
+
+          <div ms-class-hide="!value[1]">
+            <ul>
+              <li><img ms-src="value[1].userImgUrl"></li>
+              <li ms-text="value[1].title"></li>
+              <li>
+                <span>连接</span>
+                <span><i class="yo-ico">&#xe655;</i>0</span>
+                <span><i class="yo-ico">&#xe83c;</i>1</span>
+                <span><i class="yo-ico">&#xe633;</i>0</span>
+              </li>
+              <li>
+              <span><img ms-src="value[1].userImgUrl" alt=""></span>
+                <span>
+                  <em>收藏在</em>
+                  <i>时尚薇藏</i>
+                </span>
+
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+        <div class="foot">
+            <img src="/wocang/images/img/arrow.png" width="40" height="40"/>
+            <span>上拉加载更多...</span>
+        </div>
+
+
+
+  </section>
+</div>

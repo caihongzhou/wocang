@@ -1,0 +1,18 @@
+<div class="m-friend">
+  <header>
+    <ul>
+    <li class="yo-ico">&#xe6e0;</li>
+    <li >社交</li>
+    <li class="yo-ico">&#xe7d8;</li>
+    </ul>
+  </header>
+  <section>
+
+    <ul>
+      <li><span class="yo-ico red">&#xe610;</span><span>动态</span><em class="yo-ico">&#xe61a;</em></li>
+      <li><span class="yo-ico bloue">&#xe6e3;</span><span>评论</span><em class="yo-ico">&#xe61a;</em></li>
+      <li><span><img src="/wocang/images/img/b.jpg" alt=""></span><span>【我藏官方】万人群</span></li>
+    </ul>
+  </section>
+
+</div>
