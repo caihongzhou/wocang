@@ -1,0 +1,14 @@
+<div id="detali">
+<header>
+  <ul>
+  <li class="yo-ico" action-type="banck-tab">&#xe604;</li>
+  <li ms-text="title"></li>
+  <li class="yo-ico">&#xe658;</li>
+  </ul>
+</header>
+<sction>
+  <div>
+    <img ms-src="imgsrc" alt="">
+  </div>
+</sction>
+</div>

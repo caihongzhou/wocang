@@ -13,6 +13,8 @@ require('./views/my.js');
 require('./views/send.js')
 require('./views/search.js');
 require('./views/friend.js');
+require('./views/detali.js');
+
 require('./views/index.js');
 
 SPA.config({

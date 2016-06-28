@@ -36,8 +36,8 @@
         </div>
         <div class="cont" ms-repeat-value="livelist" >
 
-          <div>
-            <ul>
+          <div ms-attr-data-id="value.cardId">
+            <ul  action-type="detali.tab" >
               <li ><img ms-src="value[0].userImgUrl"></li>
               <li ms-text="value[0].title"></li>
               <li>

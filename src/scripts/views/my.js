@@ -28,8 +28,18 @@ SPA.defineView('my', {
 	},
 	bindActions:{
 		"goto.tab":function(e){
-			  
+
 			SPA.open('login')
+		},
+		"detali.tab":function(e,data){
+			//console.log(1);
+
+			SPA.open('detali',{
+				param: {
+					data:data
+				}
+			})
+
 		},
 		"favorites.tab":function(e){
 
