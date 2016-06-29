@@ -5,6 +5,13 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title>我藏</title>
 	<link rel="stylesheet" href="/wocang/prd/styles/usage/app.css">
+	<script>
+	      document.ontouchmove = function(e) {
+	          if (e.target.tagName.toUpperCase() !== 'IFRAME') {
+	              e.preventDefault();
+	          }
+	      };
+	  </script>
 		<script src="/wocang/prd/scripts/lib/moment.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
